@@ -24,6 +24,10 @@
                 <a href="#" data-activates="mobile-side-nav" class="button-collapse"><i class="material-icons">menu</i></a>
                 <div class="brand-logo"></div>
                 <div class="brand-logo center">Flames</div>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="#" ng-click="socialShare($event)">Share It <i class="material-icons right">share</i></a></li>
+					<li><a href="#" ng-click="showAboutUsModel($event)">About Us<i class="material-icons right">info_outline</i></a></li>
+				</ul>
                 <ul class="side-nav" id="mobile-side-nav">
                     <li>
                         <div class="user-view">
@@ -36,7 +40,7 @@
                         </div>
                     </li>
                     <li><a href="#" ng-click="socialShare($event)">Share It <i class="material-icons right">share</i></a></li>
-                    <li><a href="#" ng-click="showAboutUsModel($event)">About Us</a></li>
+                    <li><a href="#" ng-click="showAboutUsModel($event)">About Us<i class="material-icons right">info_outline</i></a></li>
                 </ul>
             </div>
         </nav>
